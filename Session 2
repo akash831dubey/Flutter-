@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+        home: Scaffold(
+      appBar: AppBar(
+        title: Center(child: Text('My_First_App')),
+        backgroundColor: Colors.redAccent[100],
+        
+      ),
+      backgroundColor: Colors.lightBlueAccent[200],
+      body: Center(
+        child: Image(
+          image: NetworkImage(
+              'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg'
+              ),
+        ),
+      ),
+    )
+
+    ),
+  );
+}
