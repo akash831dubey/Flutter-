@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-        home: Scaffold(
+    MaterialApp( //Inside this App Bar will be there 
+        home: Scaffold( //It provide the widget For the App Bar and Body
       appBar: AppBar(
         title: Center(child: Text('My_First_App')),
         backgroundColor: Colors.redAccent[100],
